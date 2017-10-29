@@ -37,6 +37,7 @@ article {
 	line-height:42px;
 	margin-top: 100px;
 	text-transform: uppercase;
+	font-weight: 900;
 }
 
 .title1 span {
@@ -68,8 +69,66 @@ article {
 }
 
 h2{
+	display: block;
 	font-size: 55px;
 	font-weight: bold ;
 	text-transform: uppercase;
 	text-align: center;
+	/*margin: 67px auto 75px auto;*/
+	padding: 70px 0px 45px 0px;	
+}
+
+.icons{
+
+}
+
+.icons .icon{
+	text-align: center;
+	width: 290px;
+	float: left;
+	margin-right: 113px;
+	padding-top: 110px;
+
+}
+
+.icons .icon div{
+	font-size: 18px;
+	font-weight: bold ;
+	text-transform: uppercase;
+	margin-bottom: -9px;
+}
+
+.icons .icon:nth-child(1){
+	background: url(../img/icon1.png) no-repeat center top;
+	margin-left: 20px;
+}
+
+.icons .icon:nth-child(2){
+	background: url(../img/icon2.png) no-repeat center top;
+}
+
+.icons .icon:nth-child(3){
+	background: url(../img/icon3.png) no-repeat center top;
+	margin-right: 0px;
+}
+
+.third{
+	background: #000;
+	color: #fff;	
+	margin-top: 70px;
+}
+
+.add{
+	font-size: 25px;
+
+}
+
+.clear {
+	clear: both;
+}
+.app{
+	float: left;
+	margin-top: 45px;
+	margin-left: 140px;
+	/*margin-bottom: 0px;*/
 }
