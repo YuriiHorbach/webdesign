@@ -50,7 +50,7 @@ article {
 }
 
 .cta{
-	background: #d28a4b;
+	background: #FF6C00 none repeat scroll 0% 0%;;
 	color: #fff;
 	font-size: 30px;
 	font-weight: bold;
@@ -65,7 +65,7 @@ article {
 }
 
 .cta:hover{
-	background: #be793d;
+	background: #F08105;
 }
 
 h2{
@@ -112,15 +112,17 @@ h2{
 	margin-right: 0px;
 }
 
-.third{
-	background: #000;
-	color: #fff;	
-	margin-top: 70px;
+#third{
+	background: #1b1b1b;
+    color: #fff;
+    margin-top: 70px;
 }
 
 .add{
-	font-size: 25px;
-
+	    font-size: 31px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -65px;
 }
 
 .clear {
@@ -131,4 +133,42 @@ h2{
 	margin-top: 45px;
 	margin-left: 140px;
 	/*margin-bottom: 0px;*/
+}
+
+.text{
+	    width: 490px;
+    float: left;
+    margin-left: 162px;
+    margin-top: 60px;
+
+}
+
+.title2{
+	
+	font-size: 17px;
+}
+
+.more{
+	
+	color: #F08105;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius:30px;
+	border: 1px solid;
+	padding: 10px 20px;
+	text-decoration: none;
+	margin: 188px auto 0px auto;
+	width: 300px;
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+.more:hover{
+	background: #F08105;
+color: #fff;
+}
+
+.text p{
+	    margin-bottom: 45px;
 }
